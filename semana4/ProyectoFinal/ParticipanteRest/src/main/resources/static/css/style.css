@@ -1,0 +1,49 @@
+html, body{
+	margin-left:15px; margin-right:15px; 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {   
+	border-collapse:collapse;
+	border-bottom:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:72%;
+}
+ 
+th {
+	border-bottom:1px solid gray;
+	background:none repeat scroll 0 0 rgb(128, 0, 0);
+	padding:10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top:1px solid gray;
+	text-align:center;	
+}
+ 
+tr:nth-child(even) {background: rgb(192, 192, 192);}
+tr:nth-child(odd) {background: rgb(192, 192, 192)}	
+ 
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 70%; background: rgb(255, 255, 255); margin-top: 0px; padding:15px 0px 15px 15px;}
+#agregar{margin: 1em;}
+#header h2 {width: 100%; margin:auto; color: rgb(0, 0, 0);}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#datos{color: #000;}
+#container #content {margin-top: 20px;}
+
+.add-button {
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 12px;
+	font-weight: bold;
+	width: 120px; 
+	padding: 5px 10px; 
+	
+	margin-bottom: 15px;
+	background: #cccccc;
+}
